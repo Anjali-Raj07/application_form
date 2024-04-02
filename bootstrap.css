@@ -1,0 +1,70 @@
+.card {
+    width: 50%;
+
+
+}
+
+body {
+    background-color: #E9EDF2 !important;
+
+}
+
+* {
+    color: #2B3674;
+    font-family: "DM Sans", sans-serif;
+}
+
+
+.upload_image {
+    border-radius: 13px;
+    align-items: center;
+    padding: 12px;
+    border: 2px dashed;
+}
+
+.text {
+    border-radius: 14px;
+    background-color: navajowhite;
+}
+
+.upload_image i {
+    font-size: 32px;
+}
+
+label {
+    padding-bottom: 10px;
+}
+
+.size {
+    border-radius: 15px;
+    width: 92px;
+    height: 50px;
+    text-align: center;
+    border: 1px solid #B6BBC7;
+}
+
+#exampleColorInput {
+    width: 10rem;
+}
+
+.form-label::after {
+    content: '*';
+    color: red;
+}
+
+.form-control:focus,
+.form-select:focus,
+.form-check-input:focus {
+    box-shadow: none !important;
+    border-color: #4318FF !important;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background-color: #4318FF !important;
+    box-shadow: none !important;
+}
+
+.form-check-input:checked {
+    background-color: #4318FF !important;
+}
