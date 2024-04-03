@@ -18,6 +18,9 @@ body {
 h3 {
     color: #2B3674 !important;
 }
+p{
+    margin-bottom: 0px;
+}
 
 .upload_image {
     border-radius: 13px;
