@@ -1,6 +1,7 @@
 .card {
     width: 50%;
-
+    border-radius: 22px !important;
+    border-color: #E9EDF2 !important;
 
 }
 
@@ -14,12 +15,18 @@ body {
     font-family: "DM Sans", sans-serif;
 }
 
+h3 {
+    color: #2B3674 !important;
+}
 
 .upload_image {
     border-radius: 13px;
     align-items: center;
     padding: 12px;
     border: 2px dashed;
+    background-color: #FAFCFE !important;
+    border-color: #B2BAD0 !important;
+
 }
 
 .text {
@@ -31,8 +38,21 @@ body {
     font-size: 32px;
 }
 
+.alert {
+    background-color: #fdf4d1 !important;
+    ;
+    border-color: #FBE7A5 !important;
+    border-radius: 12px;
+}
+
+.alert p {
+    color: #624E17;
+}
+
 label {
-    padding-bottom: 10px;
+    padding-bottom: 5px;
+    /* border-radius: 20px !important; */
+
 }
 
 .size {
@@ -43,6 +63,20 @@ label {
     border: 1px solid #B6BBC7;
 }
 
+.style {
+    background-color: #FAF9FF !important;
+    border: 1px solid transparent !important;
+    border-radius: 16px;
+    color: #2B3674 !important;
+
+}
+
+.footer {
+    border-radius: 22px !important;
+    border-color: #E9EDF2 !important;
+
+}
+
 #exampleColorInput {
     width: 10rem;
 }
@@ -51,14 +85,14 @@ label {
     content: '*';
     color: red;
 }
-
+.form-check-label:focus,
+.form-label:focus,
 .form-control:focus,
 .form-select:focus,
 .form-check-input:focus {
     box-shadow: none !important;
     border-color: #4318FF !important;
 }
-
 input[type=range]::-webkit-slider-thumb {
     -webkit-appearance: none;
     background-color: #4318FF !important;
@@ -67,4 +101,10 @@ input[type=range]::-webkit-slider-thumb {
 
 .form-check-input:checked {
     background-color: #4318FF !important;
+}
+
+.form-control,
+.form-label,
+.form-select {
+    border-radius: 13px !important;
 }
