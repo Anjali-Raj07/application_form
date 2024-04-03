@@ -94,20 +94,28 @@ label {
 .form-select:focus,
 .form-check-input:focus {
     box-shadow: none !important;
-    border-color: #4318FF !important;
+    border-color: #4318FF
+    !important;
 }
 input[type=range]::-webkit-slider-thumb {
     -webkit-appearance: none;
     background-color: #4318FF !important;
     box-shadow: none !important;
 }
+input[type=radio]:checked{
+    border: none !important;
+    background-color: #4318FF !important;
+    /* box-shadow: none !important; */
+}
 
 .form-check-input:checked {
     background-color: #4318FF !important;
+    border: none !important;
 }
 
 .form-control,
 .form-label,
 .form-select {
     border-radius: 13px !important;
+   
 }
