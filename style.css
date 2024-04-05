@@ -2,8 +2,8 @@
     width: 50%;
     border-radius: 22px !important;
     border-color: #E9EDF2 !important;
-margin-bottom: 15px;
-margin-top: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
 
 body {
@@ -20,7 +20,8 @@ h4 {
     color: #2B3674 !important;
     font-weight: 700 !important;
 }
-p{
+
+p {
     margin-bottom: 0px;
 }
 
@@ -34,10 +35,12 @@ p{
 
 
 }
-.color{
+
+.color {
     color: #4318FF !important
 }
-.light{
+
+.light {
     color: #8F9BBA !important;
 
 }
@@ -85,13 +88,19 @@ label {
     color: #2B3674 !important;
 
 }
-.coloured{
+
+.coloured {
     background-color: #4318FF !important;
-    color:  #FFFFFF !important;
+    color: #FFFFFF !important;
     border-radius: 17px !important;
+    width: 175px;
+    height: 60px;
 }
 
-.footer {
+    
+
+
+.card_footer {
     border-radius: 22px !important;
     border-color: #E9EDF2 !important;
 
@@ -105,21 +114,23 @@ label {
     content: '*';
     color: red;
 }
+
 .form-check-label:focus,
 .form-label:focus,
 .form-control:focus,
 .form-select:focus,
 .form-check-input:focus {
     box-shadow: none !important;
-    border-color: #4318FF
-    !important;
+    border-color: #4318FF !important;
 }
+
 input[type=range]::-webkit-slider-thumb {
     -webkit-appearance: none;
     background-color: #4318FF !important;
     box-shadow: none !important;
 }
-input[type=radio]:checked{
+
+input[type=radio]:checked {
     border: none !important;
     background-color: #4318FF !important;
 
@@ -134,5 +145,5 @@ input[type=radio]:checked{
 .form-label,
 .form-select {
     border-radius: 13px !important;
-   
+
 }
