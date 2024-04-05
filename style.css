@@ -93,8 +93,9 @@ label {
     background-color: #4318FF !important;
     color: #FFFFFF !important;
     border-radius: 17px !important;
-    width: 175px;
-    height: 58px;
+    /* width: 175px;
+    height: 58px; */
+    padding: 13px 27px !important
 }
 
    .padding{
