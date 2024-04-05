@@ -97,7 +97,9 @@ label {
     height: 58px;
 }
 
-    
+   .padding{
+    padding-left: 30px !important;
+   } 
 
 
 .card_footer {
